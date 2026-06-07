@@ -1,0 +1,41 @@
+[08:30:00] INFO: Loading config from config.yaml
+[08:30:02] INFO: Dataset path: data/raw/train.csv
+[08:31:10] INFO: Training started
+[08:32:05] INFO: Epoch 1 loss 0.82 accuracy 0.61
+[08:33:12] INFO: Epoch 2 loss 0.71 accuracy 0.68
+[08:34:20] INFO: Epoch 3 loss 0.65 accuracy 0.72
+[08:35:28] INFO: Epoch 4 loss 0.58 accuracy 0.76
+[08:36:35] INFO: Epoch 5 loss 0.52 accuracy 0.79
+[08:37:40] WARNING: Learning rate plateau detected
+[08:38:48] INFO: Epoch 6 loss 0.48 accuracy 0.81
+[08:39:55] INFO: Epoch 7 loss 0.44 accuracy 0.83
+[08:41:02] INFO: Epoch 8 loss 0.41 accuracy 0.85
+[08:42:10] INFO: Epoch 9 loss 0.38 accuracy 0.86
+[08:43:18] INFO: Epoch 10 loss 0.35 accuracy 0.88
+[08:44:25] DEBUG: Batch 1200 processed
+[08:45:30] INFO: Checkpoint saved to checkpoints/epoch_10.pt
+[09:00:00] INFO: Training resumed
+[09:01:15] INFO: Epoch 11 loss 0.52
+[09:02:30] INFO: Epoch 12 loss 0.41
+[09:10:00] ERROR: CUDA out of memory
+[09:12:15] INFO: Retry with batch_size=16
+[09:15:40] INFO: Epoch 13 loss 0.39 accuracy 0.87
+[09:20:05] ERROR: DataLoader worker crashed
+[09:22:30] INFO: Training continued
+[09:30:00] INFO: Validation accuracy 0.89
+[10:00:00] INFO: Server started on port 8080
+[10:05:12] INFO: Health check OK
+[10:10:30] INFO: Incoming request batch
+[10:12:45] WARNING: High latency on endpoint /predict
+[10:15:30] INFO: Started
+[10:16:00] INFO: Request queue size 42
+[10:16:45] ERROR: Timeout on port 8080
+[10:17:30] INFO: Retrying connection
+[10:18:20] INFO: Retry
+[10:19:00] INFO: Queue size dropped to 18
+[10:20:05] ERROR: Timeout again
+[10:21:15] WARNING: Memory usage 92%
+[10:22:10] ERROR: Connection refused
+[10:23:00] INFO: Shutting down gracefully
+[10:23:05] INFO: Server stopped
+
